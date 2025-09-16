@@ -1,0 +1,33 @@
+.css-1dgaazi-MuiGrid-root {
+    background-color: #ede7f6;
+}
+
+
+
+
+.auth-footer {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 10px;
+    background-color: transparent !important;
+    border-top: none !important;
+    z-index: 1000;
+
+}
+
+.auth-footer .MuiTypography-subtitle2 {
+    color: black;
+}
+
+.auth-footer .MuiTypography-subtitle2:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    font-size: 12px;
+    font-weight: bold;
+}

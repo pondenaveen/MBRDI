@@ -1,0 +1,59 @@
+.css-ujljcm-MuiGrid-root {
+    background-color: #ede7f6;
+}
+
+.css-19cxjew-MuiButtonBase-root-MuiButton-root {
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.css-19cxjew-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.css-19cxjew-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.css-9nsmrn-MuiPaper-root-MuiCard-root {
+    height: 700px;
+}
+
+.css-1k7bjpz-MuiPaper-root-MuiCard-root {
+    border: none;
+}
+
+.css-1i8sge0-MuiButtonBase-root-MuiFab-root {
+    display: none;
+}
+
+.css-1k7bjpz-MuiPaper-root-MuiCard-root {
+    padding: 0px;
+    margin: 15px auto;
+}
+
+.css-9lyone-MuiInputBase-input-MuiOutlinedInput-input {
+    border-radius: 4px;
+}
+
+.background {
+    min-height: 100vh;
+    background-image: url('bg.png');
+    /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,1052 @@
+/* .css-9lyone-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 0.8em !important;
+} */
+
+.css-1nvdc5e-MuiCardHeader-root {
+    padding: 8px;
+    font-size: 20px !important;
+
+}
+
+.css-69i1ev {
+    margin-top: 10px;
+}
+
+.css-17pmaar-MuiCardContent-root:last-child {
+    padding-bottom: 1px;
+}
+
+.css-17pmaar-MuiCardContent-root {
+    padding: 14px;
+}
+
+
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 4px 24px !important;
+
+}
+
+.css-hlj6pa-MuiDialogActions-root {
+    padding: 12px !important;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-top: 14px;
+}
+
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 12px 24px !important;
+    /* font-size: 20px; */
+}
+
+
+.css-nk42kx-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background-color: white;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.css-e276g8-MuiButtonBase-root-MuiMenuItem-root {
+    font-size: 15px;
+    color: black;
+}
+
+.css-8133hb-MuiTableCell-root {
+    font-weight: bold;
+
+    padding: 1px;
+}
+
+.css-teccuw-MuiToolbar-root-MuiTablePagination-toolbar {
+    padding: 7px;
+}
+
+
+/* .css-qfxz4f-MuiButtonBase-root-MuiButton-root {
+
+    background-color: white;
+    box-shadow: none;
+} */
+
+/* BodyCurved */
+.css-9d4wr9 {
+    min-height: calc(100vh - 131px);
+    /* Sidebar curve */
+    border-radius: 4px !important;
+
+}
+
+
+/* .css-e276g8-MuiButtonBase-root-MuiMenuItem-root {
+
+}
+
+.css-17x401f-MuiFormLabel-root-MuiInputLabel-root {
+
+}
+
+.css-102lq7w-MuiTypography-root {
+
+    /* font-size: 20px; */
+
+/* .css-1ebwkey-MuiButtonBase-root-MuiButton-root {
+
+}
+
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root {
+
+}
+
+.css-teccuw-MuiToolbar-root-MuiTablePagination-toolbar {
+
+
+}  */
+
+.css-1bj4zaf-MuiTypography-root-MuiLink-root-MuiAvatar-root {
+    display: none !important;
+}
+
+
+
+.css-1i5jzbk-MuiTabs-indicator {
+    background-color: rgb(151, 19, 151);
+}
+
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: rgb(151, 19, 151);
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 9px;
+    margin-top: -14px;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-qm9mjt-MuiAutocomplete-root .MuiOutlinedInput-root {
+    margin-top: 12px;
+}
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 15px 24px !important;
+    /* font-size: 20px; */
+
+}
+
+.css-1c11xzu-MuiTypography-root {
+    color: black;
+}
+
+.css-1hqeloq {
+    background-color: white !important;
+}
+
+.css-rrsebv-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    border: black;
+    border-radius: 0px;
+    background-color: whitesmoke;
+}
+
+.css-1pywc3a-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+.css-w3p5hs-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+.css-w3p5hs-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+
+.css-zfra8o {
+    background-color: white;
+}
+
+
+.css-hpgf8j {
+    display: none;
+}
+
+.css-myeebc-MuiAvatar-root {
+    border-radius: 15px;
+    margin-right: 10px;
+    color: rgb(151, 19, 151);
+    background-color: #ede7f6;
+}
+
+.css-k1k39w-MuiBadge-badge {
+    margin-right: 10px;
+}
+
+/* .css-1qqsdnr-MuiAutocomplete-root {
+    margin-top: 13px;
+} */
+
+
+.css-1i8sge0-MuiButtonBase-root-MuiFab-root {
+    display: none;
+}
+
+.css-1q9lxz1 {
+    display: none;
+}
+
+.css-1vkmmdj-MuiPaper-root-MuiCard-root {
+    display: none;
+}
+
+
+/* divider */
+/* .css-1486h2m-MuiDivider-root {
+    display: none;
+} */
+
+.css-f9dckj-MuiStack-root {
+    display: none;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding-right: 65px;
+}
+
+
+:where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 4px;
+    padding: 4px 8px 0;
+    border: 0;
+    border-top: 2px solid rgba(5, 5, 5, 0.06);
+    border-radius: 0;
+    transition: background 0.3s;
+    border-color: black;
+}
+
+.css-9d4wr9 {
+    background-color: #eef2f6;
+
+}
+
+.css-4ejydu-MuiPaper-root-MuiCard-root {
+    border-radius: 12px !important;
+}
+
+.css-o4begf-MuiAvatar-root {
+    background-color: black !important;
+    color: white;
+
+
+}
+
+.css-o4begf-MuiAvatar-root:hover {
+    background-color: black !important;
+    color: white;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    color: white;
+    background-color: black;
+    border-radius: 8px !important;
+}
+
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root.Mui-selected,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .MuiListItemIcon-root,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root:hover,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    color: black;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .MuiListItemIcon-root {
+    color: white;
+    background-color: black;
+}
+
+.css-1ebqi03-MuiGrid-root>.MuiGrid-item {
+    padding-top: 18px !important;
+}
+
+.css-1rmvxtn-MuiTableCell-root {
+    padding: 6px;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-top: 18px !important;
+}
+
+.css-1nr2ow5-MuiPaper-root-MuiCard-root {
+    border-radius: 0px !important;
+}
+
+.css-e5ffgh-MuiPaper-root-MuiCard-root {
+    border-radius: 0px !important;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root:hover {
+    border-radius: 8px !important;
+    color: white;
+    background-color: black;
+}
+
+.css-ohi407 {
+    border-radius: 0px !important;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected:hover {
+    color: white;
+    background-color: black;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    color: white;
+}
+
+.css-2qo18f-MuiAvatar-root {
+    color: white;
+    background-color: black;
+}
+
+.css-2qo18f-MuiAvatar-root:hover {
+    color: white;
+    background-color: black;
+}
+
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: black !important;
+}
+
+
+/* .css-p64g7a-MuiList-root {
+    margin-top: 200px !important;
+} */
+
+.css-1uf8tue-MuiPaper-root-MuiCard-root {
+    background-color: white;
+    border-radius: 0px !important;
+}
+
+.css-giwqui-MuiPaper-root-MuiCard-root {
+    background-color: white;
+    border-radius: 0px !important;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgb(255, 139, 72) 23%,
+            yellow 23% 43%,
+            green 66%);
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    /* Adjust spacing between legend items */
+}
+
+.legend-container {
+    margin-top: 16px;
+}
+
+.alert {
+    background-color: black;
+    color: white;
+}
+
+.alert:hover {
+    background-color: black;
+    color: white;
+}
+
+.add {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.add:hover {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+
+.cancel {
+    background-color: rgb(250, 90, 90) !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.cancel:hover {
+    background-color: rgb(250, 90, 90) !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.css-68vxcf-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    border-radius: 0px;
+}
+
+.css-ohi407 {
+    background-color: #eef2f6;
+    min-height: calc(100vh - 131px);
+
+
+
+}
+
+.css-1pxvvms-MuiButtonBase-root-MuiListItemButton-root:hover,
+.css-1pxvvms-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    background-color: white;
+    color: black;
+}
+
+
+.status-container {
+    padding: 20px;
+    /* background-color: rgba(99, 86, 67, 255); */
+}
+
+.status-box {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.status-icon {
+    margin-right: 10px;
+    font-size: 60px;
+
+}
+
+.image-container {
+    margin-top: 40px;
+}
+
+.css-1t7t7fh-MuiButtonBase-root-MuiButton-root {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.css-1t7t7fh-MuiButtonBase-root-MuiButton-root:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+
+}
+
+.css-1lxxbap-MuiChip-root[aria-controls="menu-list-grow"],
+.css-1lxxbap-MuiChip-root:hover {
+    border-color: black;
+    background: black !important;
+    color: #eef2f6;
+}
+
+
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root:hover,
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root {
+    color: black;
+    background-color: white;
+}
+
+.css-1rfhnn6-MuiAvatar-root {
+    color: white;
+    background-color: black;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.css-1rfhnn6-MuiAvatar-root:hover {
+
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.css-1lxxbap-MuiChip-root {
+
+    margin-right: 11px;
+}
+
+.css-1g3zppf-MuiBadge-badge {
+    margin-right: 30px;
+}
+
+
+
+
+
+/* .css-9lyone-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 0.8em !important;
+} */
+
+
+
+.css-69i1ev {
+    margin-top: 10px;
+}
+
+.css-17pmaar-MuiCardContent-root:last-child {
+    padding-bottom: 1px;
+}
+
+.css-17pmaar-MuiCardContent-root {
+    padding: 14px;
+}
+
+.css-uvk9nw-MuiTableCell-root {
+    padding: 8px !important;
+
+}
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 4px 24px !important;
+
+}
+
+.css-hlj6pa-MuiDialogActions-root {
+    padding: 12px !important;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-top: 14px;
+}
+
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 12px 24px !important;
+    /* font-size: 20px; */
+}
+
+
+.css-nk42kx-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background-color: white;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.css-e276g8-MuiButtonBase-root-MuiMenuItem-root {
+    font-size: 15px;
+    color: black;
+}
+
+.css-8133hb-MuiTableCell-root {
+    font-weight: bold;
+
+    padding: 8px;
+}
+
+.css-teccuw-MuiToolbar-root-MuiTablePagination-toolbar {
+    padding: 7px;
+}
+
+
+/* .css-qfxz4f-MuiButtonBase-root-MuiButton-root {
+
+    background-color: white;
+    box-shadow: none;
+} */
+
+/* BodyCurved */
+.css-9d4wr9 {
+    min-height: calc(100vh - 131px);
+    /* Sidebar curve */
+    border-radius: 1px !important;
+
+
+}
+
+
+/* .css-e276g8-MuiButtonBase-root-MuiMenuItem-root {
+
+}
+
+.css-17x401f-MuiFormLabel-root-MuiInputLabel-root {
+
+}
+
+.css-102lq7w-MuiTypography-root {
+
+    /* font-size: 20px; */
+
+/* .css-1ebwkey-MuiButtonBase-root-MuiButton-root {
+
+}
+
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root {
+
+}
+
+.css-teccuw-MuiToolbar-root-MuiTablePagination-toolbar {
+
+
+}  */
+
+.css-1bj4zaf-MuiTypography-root-MuiLink-root-MuiAvatar-root {
+    display: none !important;
+}
+
+
+
+.css-1i5jzbk-MuiTabs-indicator {
+    background-color: rgb(151, 19, 151);
+}
+
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: rgb(151, 19, 151);
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 9px;
+    margin-top: -14px;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-qm9mjt-MuiAutocomplete-root .MuiOutlinedInput-root {
+    margin-top: 12px;
+}
+
+.css-1r3evh1-MuiTypography-root-MuiDialogTitle-root {
+    padding: 15px 24px !important;
+    /* font-size: 20px; */
+
+}
+
+.css-1c11xzu-MuiTypography-root {
+    color: black;
+}
+
+.css-1hqeloq {
+    background-color: white !important;
+}
+
+.css-rrsebv-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    border: black;
+    border-radius: 0px;
+    background-color: whitesmoke;
+}
+
+.css-1pywc3a-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+.css-w3p5hs-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+.css-w3p5hs-MuiPaper-root-MuiCard-root {
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+
+
+.css-zfra8o {
+    background-color: white;
+}
+
+
+.css-hpgf8j {
+    display: none;
+}
+
+.css-myeebc-MuiAvatar-root {
+    border-radius: 15px;
+    margin-right: 10px;
+    color: rgb(151, 19, 151);
+    background-color: #ede7f6;
+}
+
+.css-k1k39w-MuiBadge-badge {
+    margin-right: 10px;
+}
+
+/* .css-1qqsdnr-MuiAutocomplete-root {
+    margin-top: 13px;
+} */
+
+
+.css-1i8sge0-MuiButtonBase-root-MuiFab-root {
+    display: none;
+}
+
+.css-1q9lxz1 {
+    display: none;
+}
+
+.css-1vkmmdj-MuiPaper-root-MuiCard-root {
+    display: none;
+}
+
+
+/* divider */
+/* .css-1486h2m-MuiDivider-root {
+    display: none;
+} */
+
+.css-f9dckj-MuiStack-root {
+    display: none;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding-right: 65px;
+}
+
+
+:where(.css-dev-only-do-not-override-3rel02).ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 4px;
+    padding: 4px 8px 0;
+    border: 0;
+    border-top: 2px solid rgba(5, 5, 5, 0.06);
+    border-radius: 0;
+    transition: background 0.3s;
+    border-color: black;
+}
+
+.css-9d4wr9 {
+    background-color: #eef2f6;
+
+}
+
+.css-4ejydu-MuiPaper-root-MuiCard-root {
+    border-radius: 12px !important;
+}
+
+.css-o4begf-MuiAvatar-root {
+    background-color: black !important;
+    color: white;
+
+
+}
+
+.css-o4begf-MuiAvatar-root:hover {
+    background-color: black !important;
+    color: white;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    color: white;
+    background-color: black;
+    border-radius: 8px !important;
+}
+
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root.Mui-selected,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .MuiListItemIcon-root,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root:hover,
+.css-1jcglh9-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    color: black;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .MuiListItemIcon-root {
+    color: white;
+    background-color: black;
+}
+
+.css-1ebqi03-MuiGrid-root>.MuiGrid-item {
+    padding-top: 18px !important;
+}
+
+.css-1rmvxtn-MuiTableCell-root {
+    padding: 6px;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-top: 18px !important;
+}
+
+.css-1nr2ow5-MuiPaper-root-MuiCard-root {
+    border-radius: 0px !important;
+}
+
+.css-e5ffgh-MuiPaper-root-MuiCard-root {
+    border-radius: 0px !important;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root:hover {
+    border-radius: 8px !important;
+    color: white;
+    background-color: black;
+}
+
+.css-ohi407 {
+    border-radius: 0px !important;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root.Mui-selected:hover {
+    color: white;
+    background-color: black;
+}
+
+.css-126euq6-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    color: white;
+}
+
+.css-2qo18f-MuiAvatar-root {
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.css-2qo18f-MuiAvatar-root:hover {
+    color: white;
+    background-color: black;
+}
+
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-1p5pb03-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: black !important;
+}
+
+
+/* .css-p64g7a-MuiList-root {
+    margin-top: 200px !important;
+} */
+
+.css-1uf8tue-MuiPaper-root-MuiCard-root {
+    background-color: white;
+    border-radius: 0px !important;
+}
+
+.css-giwqui-MuiPaper-root-MuiCard-root {
+    background-color: white;
+    border-radius: 0px !important;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgb(255, 139, 72) 23%,
+            yellow 23% 43%,
+            green 66%);
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    /* Adjust spacing between legend items */
+}
+
+.legend-container {
+    margin-top: 16px;
+}
+
+.alert {
+    background-color: black;
+    color: white;
+}
+
+.alert:hover {
+    background-color: black;
+    color: white;
+}
+
+.add {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.add:hover {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+
+.cancel {
+    background-color: rgb(250, 90, 90) !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.cancel:hover {
+    background-color: rgb(250, 90, 90) !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.css-68vxcf-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    border-radius: 0px;
+}
+
+.css-ohi407 {
+    background-color: #eef2f6;
+    min-height: calc(100vh - 131px);
+
+
+
+}
+
+.css-1pxvvms-MuiButtonBase-root-MuiListItemButton-root:hover,
+.css-1pxvvms-MuiButtonBase-root-MuiListItemButton-root:hover .MuiListItemIcon-root {
+    background-color: white;
+    color: black;
+}
+
+
+.status-container {
+    padding: 20px;
+    /* background-color: rgba(99, 86, 67, 255); */
+}
+
+.status-box {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.status-icon {
+    margin-right: 10px;
+    font-size: 60px;
+
+}
+
+.image-container {
+    margin-top: 40px;
+}
+
+.css-1t7t7fh-MuiButtonBase-root-MuiButton-root {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.css-1t7t7fh-MuiButtonBase-root-MuiButton-root:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+
+}
+
+.css-1lxxbap-MuiChip-root[aria-controls="menu-list-grow"],
+.css-1lxxbap-MuiChip-root:hover {
+    border-color: black;
+    background: black !important;
+    color: #eef2f6;
+}
+
+
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root:hover,
+.css-fp0pb7-MuiButtonBase-root-MuiButton-root {
+    color: black;
+    background-color: white;
+}
+
+.css-1rfhnn6-MuiAvatar-root {
+    color: white;
+    background-color: black;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.css-1rfhnn6-MuiAvatar-root:hover {
+
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.css-1lxxbap-MuiChip-root {
+
+    margin-right: 11px;
+}
+
+.css-1g3zppf-MuiBadge-badge {
+    margin-right: 30px;
+}
+
+.css-zikw4a-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+}
+
+.css-1gbqths-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #eef2f6;
+}
+
+.css-1gbqths-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+}
+
+.css-u1tokn-MuiDrawer-docked .MuiDrawer-paper {
+    width: 200px;
+}
+
+.css-rs0zx6 {
+    width: 200px;
+}
+
+.css-54cv6c-MuiTooltip-tooltip {
+    background-color: white;
+}
+
+.css-k008qs{
+    margin-top: -35px !important;
+}
+
+/* .css-1u63c6d-MuiTypography-root{
+    margin-top: 30px;
+} */
+
+@media (min-width: 900px) {
+    .css-ohi407 {
+        margin-left: -180px;
+        width: calc(100% - 260px);
+    }
+}
+
+.css-kvip5o-MuiToolbar-root {
+    height: 10px;
+    margin: 5px;
+}
+
+.auth-footer {
+    padding: 10px;
+    background-color: white;
+    /* border-top: 1px solid #e0e0e0; */
+    /* margin-top: 30px; */
+}
+
+
+.css-i4bv87-MuiSvgIcon-root {
+  width: 0.5em;
+height: 0.5em;
+}
+
+.css-4a5t8g-MuiInputBase-input-MuiOutlinedInput-input.MuiInputBase-inputSizeSmall {
+    padding: 6px 10px;
+}
+
+
+.css-9d4wr9 {
+    min-height: calc(100vh - 90px);
+    border-radius: 1px !important;
+}

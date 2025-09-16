@@ -1,0 +1,197 @@
+import React, { useState, useEffect } from 'react';
+import { styled } from '@mui/material/styles';
+import { Box, Typography } from '@mui/material';
+import MainCard from 'ui-component/cards/MainCard';
+import {
+    GaugeContainer,
+    GaugeValueArc,
+    GaugeReferenceArc,
+    useGaugeState,
+} from '@mui/x-charts/Gauge';
+
+const CardWrapper = styled(MainCard)(() => ({
+    backgroundColor: 'white',
+    color: '#fff',
+    overflow: 'hidden',
+    position: 'relative',
+    height: '420px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '4px',
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.2)',
+}));
+
+function GaugePointer({ color }) {
+    const { valueAngle, outerRadius, cx, cy } = useGaugeState();
+
+    if (valueAngle === null) {
+        return null; // No value to display
+    }
+
+    const target = {
+        x: cx + outerRadius * Math.sin(valueAngle),
+        y: cy - outerRadius * Math.cos(valueAngle),
+    };
+
+    return (
+        <g>
+            <circle cx={cx} cy={cy} r={7} fill={color} />
+            <path
+                d={`M ${cx} ${cy} L ${target.x} ${target.y}`}
+                stroke={color}
+                strokeWidth={4}
+            />
+        </g>
+    );
+}
+
+const GaugeTicks = () => {
+    const { outerRadius, startAngle, endAngle, cx, cy } = useGaugeState();
+    const numTicks = 10;
+    const tickLength = 10;
+
+    const ticks = [];
+    for (let i = 0; i <= numTicks; i++) {
+        const angle = startAngle + (i / numTicks) * (endAngle - startAngle);
+        const sin = Math.sin(angle);
+        const cos = Math.cos(angle);
+
+        const x1 = cx + (outerRadius - tickLength) * sin;
+        const y1 = cy - (outerRadius - tickLength) * cos;
+        const x2 = cx + (outerRadius - tickLength - 7) * sin;
+        const y2 = cy - (outerRadius - tickLength - 7) * cos;
+
+        ticks.push(
+            <g key={i}>
+                <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="black" strokeWidth={2} />
+            </g>
+        );
+    }
+    return <g>{ticks}</g>;
+};
+
+const Carbon = ({ pointerColor = 'black' }) => {
+    const [CarbonValue, setCarbonValue] = useState(30);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const newValue = Math.floor(Math.random() * 101);
+            setCarbonValue(newValue);
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, []);
+
+    return (
+        <CardWrapper border={false} content={false}>
+            <Box
+                sx={{
+                    textAlign: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '100%',
+                }}
+            >
+                <Typography
+                    sx={{
+                        color: 'black',
+                        fontSize: '18px',
+                        mt: 1,
+                        padding: '6px',
+                        backgroundColor: 'rgb(180, 254, 180)',
+                        textAlign: 'center',
+                        width: '90%',
+                        borderRadius: '4px',
+                        display: 'block',
+                    }}
+                >
+                    Carbonfootprint
+                </Typography>
+
+                <Box
+                    sx={{
+                        position: 'relative',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        mt: 1,
+                    }}
+                >
+                    <GaugeContainer
+                        width={320}
+                        height={290}
+                        startAngle={-150}
+                        endAngle={150}
+                        value={CarbonValue}
+                    >
+                        <defs>
+                            <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style={{ stopColor: '#00ff00', stopOpacity: 1 }} /> {/* Green */}
+                                <stop offset="50%" style={{ stopColor: '#ffff00', stopOpacity: 1 }} /> {/* Yellow */}
+                                <stop offset="100%" style={{ stopColor: '#ff0000', stopOpacity: 1 }} /> {/* Red */}
+                            </linearGradient>
+                        </defs>
+                        <GaugeReferenceArc
+                            thickness={15}
+                            color="rgba(0, 0, 0, 0.1)"
+                        />
+                        <GaugeValueArc
+                            thickness={15}
+                            sx={{ fill: 'url(#gaugeGradient)' }}
+                        />
+                        <GaugeTicks />
+                        <GaugePointer color={pointerColor} />
+                    </GaugeContainer>
+                    <Box
+                        sx={{
+                            top: 0,
+                            left: 0,
+                            bottom: 0,
+                            right: 0,
+                            position: 'absolute',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}
+                    >
+                        <Typography
+                            sx={{
+                                marginTop: '260px',
+                                color: 'black',
+                                fontSize: '34px',
+                                fontWeight: 'bold',
+                                textShadow: '2px 2px 4px rgba(0,0,0,0.4)',
+                            }}
+                        >
+                            {CarbonValue}
+                        </Typography>
+                    </Box>
+                </Box>
+
+                <Typography
+                    sx={{
+                        color: 'goldenrod',
+                        fontSize: '18px',
+                        mt: 2,
+                        fontWeight: 'bold',
+                        padding: '6px',
+                        backgroundColor: 'rgb(230, 230, 230,0.5)',
+                        textAlign: 'center',
+                        width: '70%',
+                        borderRadius: '4px',
+                        display: 'block',
+                    }}
+                >
+                    Moderate
+                </Typography>
+            </Box>
+        </CardWrapper>
+    );
+};
+
+export default Carbon;
+
+

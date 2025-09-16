@@ -1,0 +1,43 @@
+.css-1ru8wq2-MuiInputBase-root-MuiOutlinedInput-root {
+    display: none;
+}
+
+.css-1nv9xvo-MuiPaper-root-MuiCard-root {
+    display: none;
+}
+
+.css-1tu59yi-MuiPaper-root-MuiCard-root {
+    display: none;
+}
+
+/* .css-zmi87v-MuiAvatar-root{
+    display: none;
+} */
+
+.css-1u90hat-MuiPaper-root-MuiCard-root {
+    margin-top: 348px;
+    margin-bottom: 0px;
+}
+
+.css-1u90hat-MuiPaper-root-MuiCard-root:after {
+    background: white;
+}
+
+.css-1u90hat-MuiPaper-root-MuiCard-root {
+    background: white;
+}
+
+/* Related to accound setting in profile section */
+.css-hq827v-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    color: #5e35b1;
+    background-color: #ede7f6;
+    display: none;
+}
+
+.css-1u3pv8a-MuiTypography-root {
+    font-family: Poppins !important;
+}
+
+.css-gw30z3-MuiTypography-root {
+    font-family: Poppins !important;
+}
